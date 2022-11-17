@@ -3,7 +3,7 @@
     "type": "object",
     "properties": {
         "test": {
-            "$ref": "/main/Test1"
+            "$ref": "https://github.com/Stentato/schemaOH/blob/main/Test1"
         }
     },
   "required": [

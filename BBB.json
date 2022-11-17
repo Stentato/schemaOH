@@ -6,7 +6,7 @@
       "minLength": 2
     },
     "email": {
-      "$ref": "https://github.com/Stentato/schemaOH/blob/main/AAA.json"
+      "$ref": "https://github.com/Stentato/schemaOH/blob/main/AAA.json#"
     }
   },
   "required": ["name", "email"],

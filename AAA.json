@@ -1,0 +1,7 @@
+{
+  "$id": "https://github.com/Stentato/schemaOH/new/main",
+  
+  "type": "string",
+  "format": "email",
+  "pattern": "@example\\.test$"
+}

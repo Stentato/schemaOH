@@ -1,0 +1,12 @@
+{
+    "$id": "",
+    "type": "object",
+    "properties": {
+        "test": {
+            "$ref": ""
+        }
+    },
+  "required": [
+        "test"
+    ]
+}

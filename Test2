@@ -1,9 +1,9 @@
 {
-    "$id": "",
+    "$id": "https://github.com/Stentato/schemaOH/blob/main/Test2",
     "type": "object",
     "properties": {
         "test": {
-            "$ref": ""
+            "$ref": "/main/Test1"
         }
     },
   "required": [

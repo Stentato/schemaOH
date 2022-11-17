@@ -1,0 +1,13 @@
+{
+    "$id": "https://github.com/Stentato/schemaOH/new/main/A.json",
+            "title": "Product",
+                "description": "A product from Acme's catalog",
+                    "type": "object",
+                        "properties": {
+        "productId": {
+            "description": "The unique identifier for a product",
+                "type": "integer"
+        }
+    },
+    "required": ["productId"]
+}

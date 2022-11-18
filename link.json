@@ -1,0 +1,8 @@
+[
+	{
+		"query": "type",
+		"cases": {
+			"A": "https://opensource.ieee.org/omh/1752/-/blob/main/schemas/utility/unit-value-1.0.json"
+		}
+	}
+]

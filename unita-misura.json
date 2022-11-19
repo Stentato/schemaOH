@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://raw.githubusercontent.com/Stentato/schemaOH/main/unita-misura.json
+    "$id": "https://raw.githubusercontent.com/Stentato/schemaOH/main/unita-misura.json",
     "description": "This schema represents a numerical value with a unit of measure.",
 
     "type": "object",

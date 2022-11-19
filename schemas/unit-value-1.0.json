@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/Stentato/schemaOH/main/schemas/unit-value-1.0.json",
+    "description": "This schema represents a numerical value with a unit of measure.",
+
+    "type": "object",
+
+    "properties": {
+        "value": {
+            "description": "The numeric value of the element.",
+            "type": "number"
+        },
+        "unit": {
+            
+            "type": "string"
+        }
+    },
+    "required": [
+        "value",
+        "unit"
+    ]
+}

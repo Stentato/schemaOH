@@ -27,11 +27,11 @@
                     }
                 }
             ]
-        },
-       "deviceId" : { "type": "string" }
+        }
+     
     },
     "required": [
-        "blood_glucose",
-        "deviceId"
+        "blood_glucose"
+        
     ]
 }

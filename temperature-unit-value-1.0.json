@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "",
+    "title": "Unit of Temperature and Value",
+    "type": "object",
+    "description": "This schema represents temperature (intensity of heat)",
+    
+    "allOf": [
+        {
+            "$ref": "unit-value-1.0.json"
+        },
+        {
+            "properties": {
+                "unit": {
+                    
+                    "enum": [
+                        "K",
+                        "F",
+                        "C"
+                    ]
+                }
+            }
+        }
+    ]
+}

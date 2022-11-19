@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/Stentato/schemaOH/main/schemas/diastolic-blood-pressure-1.0.json",
+    "type": "object",
+    "description": "This schema represents a person's diastolic blood pressure.",
+    
+    "definitions": {
+        "unit_value": {
+            "$ref": "unit-value-1.0.json"
+        }
+    },
+
+    "allOf": [
+        {
+            "$ref": "#/definitions/unit_value"
+        },
+        {
+            "properties": {
+                "unit": {
+                    "enum": ["mmHg"]
+                }
+            }
+        }
+    ]
+}

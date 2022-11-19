@@ -6,13 +6,13 @@
   
     "definitions": {
         "unit_value": {
-            "$ref": "unit-value-1.x.json"
+            "$ref": "unita-misura-1.0.json"
         },
         "specimen_source": {
-            "$ref": "specimen-source-2.x.json"
+            "$ref": "specimen-source-2.0.json"
         },
         "time_frame": {
-            "$ref": "time-frame-1.x.json"
+            "$ref": "time-frame-1.0.json"
         },
         "temporal_relationship_to_meal": {
             "$ref": "temporal-relationship-to-meal-1.0.json"

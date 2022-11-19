@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "",
+    "$id": "https://raw.githubusercontent.com/Stentato/schemaOH/main/glucosio.json",
     "description": "This schema represents a person's blood glucose level.",
     "type": "object",
   

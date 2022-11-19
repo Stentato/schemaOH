@@ -31,7 +31,6 @@
         
     },
     "required": [
-        "blood_glucose",
-        "effective_time_frame"
+        "blood_glucose"
     ]
 }

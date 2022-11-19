@@ -1,7 +1,0 @@
-{
-  "$id": "https://github.com/Stentato/schemaOH/new/main/AAA.json#",
-  
-  "type": "string",
-  "format": "email",
-  "pattern": "@example\\.test$"
-}

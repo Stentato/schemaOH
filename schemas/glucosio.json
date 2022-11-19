@@ -6,7 +6,7 @@
 
     "definitions": {
         "unit_value": {
-            "$ref": "unit-value-1.x.json"
+            "$ref": "unit-value-1.0.json"
         }
     },
 

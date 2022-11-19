@@ -1,14 +1,14 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    
+    "$id": "https://raw.githubusercontent.com/Stentato/schemaOH/main/schemas/pressione.json",
     "description": "This schema represents a person's blood pressure as a combination of systolic and diastolic blood pressure.",
     "type": "object",
     "definitions": {
         "systolic_blood_pressure": {
-            "$ref": "systolic-blood-pressure-1.x.json"
+            "$ref": "systolic-blood-pressure-1.0.json"
         },
         "diastolic_blood_pressure": {
-            "$ref": "diastolic-blood-pressure-1.x.json"
+            "$ref": "diastolic-blood-pressure-1.0.json"
         }
     },
 

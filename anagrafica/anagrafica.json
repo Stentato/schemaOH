@@ -1,7 +1,7 @@
 {
 	"definitions": {},
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://example.com/object1668957272.json", 
+	"$id": "https://raw.githubusercontent.com/Stentato/schemaOH/main/anagrafica/anagrafica.json", 
 	"title": "Root", 
 	"type": "object",
 	"required": [

@@ -1,0 +1,54 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#", 
+	"$id": "https://example.com/object1668957272.json", 
+	"title": "Root", 
+	"type": "object",
+	"required": [
+		"id_paziente",
+		"nome",
+		"cognome",
+		"codice-fiscale"
+	],
+	"properties": {
+		"id_paziente": {
+			"$id": "#root/id_paziente", 
+			"title": "Id_paziente", 
+			"type": "integer",
+			"examples": [
+				0
+			],
+			"default": 0
+		},
+		"nome": {
+			"$id": "#root/nome", 
+			"title": "Nome", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"nome"
+			],
+			"pattern": "^.*$"
+		},
+		"cognome": {
+			"$id": "#root/cognome", 
+			"title": "Cognome", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"cognome"
+			],
+			"pattern": "^.*$"
+		},
+		"codice-fiscale": {
+			"$id": "#root/codice-fiscale", 
+			"title": "Codice-fiscale", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"XXXX-XXXX-XXXX-XXXX"
+			],
+			"pattern": "^.*$"
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "userId": {
+      "type": "number"
+    },
+    "mail": {
+      "type": "string"
+    },
+    "pass": {
+      "type": "string"
+    },
+    "campo": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "userId",
+    "mail",
+    "pass",
+    "campo"
+  ]
+}

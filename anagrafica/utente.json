@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "",
+  "$id": "https://raw.githubusercontent.com/Stentato/schemaOH/main/anagrafica/utente.json",
   "title": "Generated schema for Root",
   "type": "object",
   "properties": {

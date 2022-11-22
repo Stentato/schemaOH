@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "mail": {
+      "type": "string"
+    },
+    "tipo": {
+      "type": "string"
+    },
+    "test": {
+      "type": "string"
+    },
+    "risultato": {
+      "type": "string"
+    },
+    "input": {
+      "type": "string"
+    },
+    "output": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "mail",
+    "tipo",
+    "test",
+    "risultato",
+    "input",
+    "output"
+  ]
+}
